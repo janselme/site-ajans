@@ -12,11 +12,20 @@
 ## Development
 
 ```bash
+# install node.js
+npm install --global @gridsome/cli
+
 # install Gridsome globally
 npm install --global @gridsome/cli
 
+# create a directory for the project
+mkdir site-ajans
+
 # cd into the project directory
-cd gridsome-forestry-starter
+cd site-ajans
+
+# clone the git repo in this project
+cd site-ajans
 
 # install dependencies
 npm install

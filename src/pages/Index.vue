@@ -5,6 +5,7 @@
       <ProjectsGrid :projects="$page.projects.edges" />
     </div>
     <LatestJournals :journals="$page.journals.edges" />
+    <StrengthContent />
   </Layout>
 </template>
 
@@ -35,15 +36,17 @@ query Posts {
 </page-query>
 
 <script>
-import Hero from "@/components/Hero"
-import ProjectsGrid from "@/components/ProjectsGrid"
-import LatestJournals from "@/components/LatestJournals"
+import Hero from "@/components/Hero";
+import ProjectsGrid from "@/components/ProjectsGrid";
+import LatestJournals from "@/components/LatestJournals";
+import StrengthContent from "@/components/StrengthContent";
 
 export default {
   components: {
     Hero,
     ProjectsGrid,
-    LatestJournals
+    LatestJournals,
+    StrengthContent
   }
-}
+};
 </script>
